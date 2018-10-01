@@ -5,7 +5,7 @@ class Owner
 
   @@all_owners = Array.new
 
-  attr_accessor :name
+  attr_accessor :name :pets
 
   def initialize(name)
     @name = name
@@ -24,10 +24,6 @@ class Owner
   def say_species
     "I am a human."
   end
-
-  def pets=(pets)
-    @pets = pets
-  end 
 
   def pets
     @pets
