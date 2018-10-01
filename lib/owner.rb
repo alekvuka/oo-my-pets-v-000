@@ -76,6 +76,12 @@ class Owner
   end
 
   def list_pets
+    number_of_fishes = 
+
+
+    "I have "
+
+
   end
 
 
