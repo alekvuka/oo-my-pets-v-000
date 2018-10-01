@@ -5,7 +5,7 @@ class Owner
 
   @@all_owners = Array.new
 
-  attr_accessor :name :pets
+  attr_accessor :name, :pets
 
   def initialize(name)
     @name = name
@@ -63,7 +63,7 @@ class Owner
   end
 
   def list_pets
-  end 
+  end
 
 
   def sell_pets
