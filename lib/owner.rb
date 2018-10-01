@@ -70,7 +70,7 @@ class Owner
       cat.mood = "nervous"
     end
     @pets[:dogs].each do |dog|
-      dog.mood = "happy"
+      dog.mood = "nervous"
     end
 
 
