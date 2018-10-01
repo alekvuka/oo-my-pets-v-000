@@ -44,7 +44,7 @@ class Owner
     @pets[:dogs].push(new_dog)
   end
 
-  def walk_dog
+  def walk_dogs
     all_dogs = @pets[:dogs]
     all_dogs.each do |dog|
       dog.mood = "happy"
