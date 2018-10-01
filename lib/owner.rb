@@ -15,7 +15,6 @@ class Owner
     @pets[:cats] = Array.new
     @pets[:dogs] = Array.new
     @pets[:fishes] = Array.new
-
   end
 
   def species
@@ -33,7 +32,11 @@ class Owner
   def buy_fish(name)
     new_fish = Fish.new(name)
     @pets[:fishes].push(new_fish)
-    #binding.pry
+  end
+
+  def buy_cat(name)
+    new_cat = Cat.new(name)
+    @pets[:cats].push(new_fish)
   end
 
 
