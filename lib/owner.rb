@@ -1,4 +1,3 @@
-OWNER
 
 require 'pry'
 
