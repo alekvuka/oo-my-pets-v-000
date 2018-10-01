@@ -29,6 +29,9 @@ class Owner
     @pets
   end
 
+  def pets=(pets)
+    @pets = pets
+
   def buy_fish(name)
     new_fish = Fish.new(name)
     @pets[:fishes].push(new_fish)
@@ -62,6 +65,9 @@ class Owner
     end
   end
 
+  def list_pets
+
+
   def sell_pets
     @pets[:fishes].each do |fish|
       fish.mood = "nervous"
@@ -72,7 +78,7 @@ class Owner
     @pets[:dogs].each do |dog|
       dog.mood = "nervous"
     end
-  end 
+  end
 
 
 
